@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Angular rout for githib Application</title>
+
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+   
+    
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+ <script type="text/javascript" src="route-script.js"></script>
+</head>
+<body ng-app="DemoApp">
+    <div>
+    	<h1>Home</h1>
+
+        <a href="#family" class="btn btn-default">Family</a>
+        <a href="#friends" class="btn btn-default">Friends</a>
+        
+    </div>
+
+   <div ng-view></div>
+</body>
+</html>
